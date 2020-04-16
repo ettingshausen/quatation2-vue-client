@@ -1,7 +1,7 @@
 <template>
     <div class="main" v-loading="this.$store.state.isRequesting">
         <h3>
-            <i class="el-icon-menu"> </i> 舜新建材公司库存管理系统</h3>
+            <i class="el-icon-menu"> </i>库存管理系统</h3>
         <span class="line"></span>
         <div v-show="pass">
             <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" :router="true">
